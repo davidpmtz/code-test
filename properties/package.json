@@ -1,0 +1,21 @@
+{
+  "name": "properties",
+  "version": "1.0.0",
+  "description": "",
+  "main": "properties.js",
+  "scripts": {
+    "serve": "sls offline start --lambdaPort 3002 --httpPort 8082 --noAuth --noPrependStageInUrl",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.965.0",
+    "axios": "^0.21.1",
+    "serverless-bundle": "^4.4.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^8.0.0"
+  }
+}
